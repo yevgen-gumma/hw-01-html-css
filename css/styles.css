@@ -12,8 +12,26 @@ body {
   background-color: #fff;
 }
 
+.container {
+  width: 1128px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 button {
   cursor: pointer;
+}
+
+.page-navigation {
+  display: flex;
+  width: 100%;
+}
+
+.heder-flex {
+  display: flex;
+  align-items: center;
 }
 
 .logotype {
@@ -23,6 +41,10 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
 }
 
 .menu-link {
@@ -36,6 +58,10 @@ button {
 .menu-link:focus,
 .menu-link:hover {
   color: #404bbf;
+}
+
+.address {
+  width: 100%;
 }
 
 .hero-title {
